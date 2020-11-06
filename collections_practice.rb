@@ -29,13 +29,13 @@ def reverse_array(array)
   array.reverse
 end
 
-names = ["Dora", "Jason", "Hazel"]
-
 def kesha_maker(array)
   names.each do |letter|
     letter[2] = "$"
   end
 end
+
+kesha_maker(["Dora", "Jason", "Hazel"])
 
 
 def find_a
