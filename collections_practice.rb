@@ -57,9 +57,7 @@ end
 
 def add_s(array)
   array.each do |word|
-    word[0] + "s"
-    word[2] + "s"
-    word[3] + "s"
+    word[0, 2, 3] + "s"
   end
 end
 
