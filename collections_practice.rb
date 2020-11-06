@@ -29,9 +29,10 @@ def reverse_array(array)
   array.reverse
 end
 
+names = ["Dora", "Jason", "Hazel"]
 
-def kesha_maker
-
+def kesha_maker(array)
+  
 end
 
 
