@@ -38,8 +38,10 @@ end
 kesha_maker(["Dora", "Jason", "Hazel"])
 
 
-def find_a
-
+def find_a(array)
+  array.start_with? do |word|
+    word[0] == "a"
+  end
 end
 
 
