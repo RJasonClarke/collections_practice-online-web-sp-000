@@ -1,5 +1,7 @@
-def sort_array_asc
+array = [1,2,3,4,5]
 
+def sort_array_asc(array)
+  array.sort 
 end
 
 
