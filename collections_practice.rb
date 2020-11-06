@@ -39,7 +39,7 @@ kesha_maker(["Dora", "Jason", "Hazel"])
 
 
 def find_a(array)
-  array.start_with? do |word|
+  array.find_all do |word|
     word[0] == "a"
   end
 end
