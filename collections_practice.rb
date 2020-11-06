@@ -44,6 +44,7 @@ def find_a(array)
   end
 end
 
+find_a(["Apple", "Apricot", "Pineapple"])
 
 def sum_array
 
