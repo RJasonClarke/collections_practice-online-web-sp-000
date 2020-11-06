@@ -32,7 +32,8 @@ end
 names = ["Dora", "Jason", "Hazel"]
 
 def kesha_maker(array)
-
+  names.each do |letter|
+    letter[2] = $
 end
 
 
