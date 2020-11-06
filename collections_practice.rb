@@ -46,8 +46,12 @@ end
 
 find_a(["Apple", "Apricot", "Pineapple"])
 
-def sum_array
-
+def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum += num
+  end
+  sum
 end
 
 
