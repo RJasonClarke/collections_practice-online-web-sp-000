@@ -32,7 +32,7 @@ end
 names = ["Dora", "Jason", "Hazel"]
 
 def kesha_maker(array)
-  
+
 end
 
 
